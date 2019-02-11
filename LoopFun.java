@@ -10,7 +10,11 @@ public class LoopFun
        * @return the factorial of the number
        */
       public Integer factorial(Integer number){
-          return null;
+          int factorial = 1;
+          for(int i = 1; i <= number; i++){
+              factorial = factorial*i;
+            }
+            return factorial;
       }
 
       /**
@@ -21,7 +25,8 @@ public class LoopFun
        * @return Upper case string of the first letter of each word
        */
       public String acronym(String phrase) {
-          return null;
+          String result = 
+          return result;
       }
 
       /**
